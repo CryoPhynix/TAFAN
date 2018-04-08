@@ -40,6 +40,7 @@ public class ACS_Actions : MonoBehaviour {
             {
                 nav.SetDestination(Player.transform.position);
                 WalkForward();
+               
             }
 
             if (dist < 5)
@@ -47,6 +48,7 @@ public class ACS_Actions : MonoBehaviour {
                 Fire();
             }
             
+          
         }
         
     }
