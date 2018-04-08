@@ -135,9 +135,9 @@ public class randomGenerationScript : MonoBehaviour {
 			}
 
 			// If the point calculated is above the ceiling, OR below the floor, then wait to spawn until next calculation.
-			if ((spawnCeiling [arrayIndex] < impactPoint.point.y) || (spawnFloor [arrayIndex] > impactPoint.point.y)) {
-				spawnIsAGo = false;
-			}
+		//	if ((spawnCeiling [arrayIndex] < impactPoint.point.y) || (spawnFloor [arrayIndex] > impactPoint.point.y)) {
+		//		spawnIsAGo = false;
+		//	}
 
 			// If the point calculated is within the buffer zone (no spawn near player), then wait to spawn until next calculation.
 			if (playerBufferArea (playerToFollow.transform.position, impactPoint.point, setDistance) == false) {
