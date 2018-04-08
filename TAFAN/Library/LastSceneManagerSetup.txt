@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/KTZ Scene.unity
+- path: Assets/MainLevel.unity
   isLoaded: 1
   isActive: 1

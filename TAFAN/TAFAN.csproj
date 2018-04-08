@@ -319,7 +319,10 @@
     <Compile Include="Assets\objectfinder.cs" />
     <Compile Include="Assets\Pickup.cs" />
     <Compile Include="Assets\Player Mechanics\ChillyPower.cs" />
+    <Compile Include="Assets\Player Mechanics\Durability.cs" />
     <Compile Include="Assets\Player Mechanics\HeatingCooling.cs" />
+    <Compile Include="Assets\Player Mechanics\PlayerControls.cs" />
+    <Compile Include="Assets\Player Mechanics\ShootScript.cs" />
     <Compile Include="Assets\Scoulville_Manager.cs" />
     <Compile Include="Assets\Upgrade System\UpgradeCooling.cs" />
     <Compile Include="Assets\Upgrade System\UpgradeDurability.cs" />
