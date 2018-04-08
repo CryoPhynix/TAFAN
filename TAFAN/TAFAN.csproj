@@ -319,6 +319,8 @@
     <Compile Include="Assets\Pickup.cs" />
     <Compile Include="Assets\Scoulville_Manager.cs" />
     <Compile Include="Assets\Upgrade System\UpgradeCooling.cs" />
+    <Compile Include="Assets\Upgrade System\UpgradeDurability.cs" />
+    <Compile Include="Assets\Upgrade System\UpgradeSpeed.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Shaders\SurfaceShader_VC.shader" />

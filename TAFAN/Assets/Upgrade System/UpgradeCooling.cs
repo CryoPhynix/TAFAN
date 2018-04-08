@@ -8,13 +8,7 @@ public class UpgradeCooling : MonoBehaviour {
     const int MAX_UPGRADES = 3;
     int current_upgrade = 0;
     Button coolingButton;
-
-    private void Awake()
-    {
-        coolingButton = GetComponent<Button>();
-        coolingButton.onClick.AddListener(() => { ActivateUpgradeCooling(); });
-    }
-
+    
     public void ActivateUpgradeCooling()
     {
         //todo logic here
