@@ -241,11 +241,27 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Scripts\Cam.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Scripts\Shell.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Scripts\TurretTurn.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Scripts\UnitMovement.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Scripts\weaponFire.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Table_Animations\Scripts\ACS_Actions.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Table_Animations\Scripts\ACS_Ui_Char_Panel.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Table_Animations\Scripts\CSC_CharacterViewer.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Table_Animations\Scripts\LGT_Actions.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Table_Animations\Scripts\LGT_Ui_Char_Panel.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Table_Animations\Scripts\RLV_Ui_Char_Panel.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Table_Animations\Scripts\Tank_Actions.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Demo_Table_Animations\Scripts\Tank_Ui_Char_Panel.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Scripts\FlyCamera.cs" />
+    <Compile Include="Assets\Combat Systems-Constructor\Scripts\LGT_trackMove.cs" />
     <Compile Include="Assets\InfiniteSpawnPlane\randomGenerationScript.cs" />
     <Compile Include="Assets\Pickup.cs" />
     <Compile Include="Assets\Scoulville_Manager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
