@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
+# Visual Studio 15
+=======
 # Visual Studio 2017
+>>>>>>> 26a5ec9ea30ec23bdb1e18f485e20bf918e862bc
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAFAN", "TAFAN.csproj", "{D00B7C3F-9B46-A4B9-A639-68C41DA82021}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAFAN.Plugins", "TAFAN.Plugins.csproj", "{695A5E34-D65F-EB78-6DC2-CD17F5EC709C}"
