@@ -1,21 +1,62 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.AI;
 //This script executes commands to change character animations
-[RequireComponent (typeof (Animator))]
+[RequireComponent(typeof(Animator))]
 public class ACS_Actions : MonoBehaviour {
+    public NavMeshAgent nav;
+    public bool ThrusterTargeted;
+    public bool PlayerTargeted;
+    public GameObject Player;
+    public GameObject Thruster;
+    public float dist;
 
- 
-	public GameObject[] weapArray;
+    private void Start()
+    {
+        ThrusterTargeted = true;
 
-	private Animator animator,animatorWeap;
- 
-	void Awake () {
+    }
+
+
+    public GameObject[] weapArray;
+
+    private Animator animator, animatorWeap;
+    public void Update()
+    {
+
+        dist = Vector3.Distance(Player.transform.position, this.transform.position);
+
+     
+        if (ThrusterTargeted)
+        {
+            nav.SetDestination(Thruster.transform.position);
+            WalkForward();
+            if (nav.updateRotation == true)
+            {
+                TernRight();
+            }
+
+            if (dist < 10)
+            {
+                nav.SetDestination(Player.transform.position);
+                WalkForward();
+            }
+
+            if (dist < 5)
+            {
+                Fire();
+            }
+            
+        }
+        
+    }
+    void Awake () {
 		animator = GetComponent<Animator> ();
+        nav = GetComponent<NavMeshAgent>();
 
- 
- 
+        
 
- 
+
     }
  
 	public void Fire()
@@ -35,7 +76,12 @@ public class ACS_Actions : MonoBehaviour {
 		}
 	}
  
+   
+         
 
+       
+    
+    
 	public void Dead1()
 	{
 		animator.SetBool ("ACS_Dead1", true);
@@ -92,7 +138,7 @@ public class ACS_Actions : MonoBehaviour {
 	{
 		animator.SetBool ("ACS_MoveWeelsBack", true);
 	}
-	public void WalkForwad()
+	public void WalkForward()
 	{
 		animator.SetBool ("ACS_WalkForwad", true);
 	}
