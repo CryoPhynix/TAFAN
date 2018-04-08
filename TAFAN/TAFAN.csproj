@@ -257,6 +257,7 @@
     <Compile Include="Assets\Combat Systems-Constructor\Scripts\FlyCamera.cs" />
     <Compile Include="Assets\Combat Systems-Constructor\Scripts\LGT_trackMove.cs" />
     <Compile Include="Assets\InfiniteSpawnPlane\randomGenerationScript.cs" />
+    <Compile Include="Assets\objectfinder.cs" />
     <Compile Include="Assets\Pickup.cs" />
     <Compile Include="Assets\Scoulville_Manager.cs" />
   </ItemGroup>
