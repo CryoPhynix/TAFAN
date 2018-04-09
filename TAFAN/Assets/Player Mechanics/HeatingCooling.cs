@@ -47,5 +47,8 @@ public class HeatingCooling : MonoBehaviour {
         }
 	}
 
-    
+    public void IncreaseCooling()
+    {
+        coolingValue++;
+    }
 }

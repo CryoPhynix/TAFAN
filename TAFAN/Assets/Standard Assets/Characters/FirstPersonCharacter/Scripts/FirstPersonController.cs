@@ -42,6 +42,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        public float speedMultiplier;
+
         // Use this for initialization
         private void Start()
         {
@@ -55,6 +57,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            speedMultiplier = 1.0f;
         }
 
 
@@ -105,8 +108,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                                m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
-            m_MoveDir.x = desiredMove.x*speed;
-            m_MoveDir.z = desiredMove.z*speed;
+            m_MoveDir.x = desiredMove.x*speed * speedMultiplier;
+            m_MoveDir.z = desiredMove.z* speed * speedMultiplier;
 
 
             if (m_CharacterController.isGrounded)
@@ -127,8 +130,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
 
-            ProgressStepCycle(speed);
-            UpdateCameraPosition(speed);
+            ProgressStepCycle(speed * speedMultiplier);
+            UpdateCameraPosition(speed * speedMultiplier);
 
             m_MouseLook.UpdateCursorLock();
         }

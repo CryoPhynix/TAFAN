@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Durability : MonoBehaviour {
 
-    int durability;
+    public int durability;
 
     void Start()
     {

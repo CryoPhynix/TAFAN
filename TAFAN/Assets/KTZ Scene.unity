@@ -238,6 +238,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 084523586d077794a87c0ee06ef03804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &48186698 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 2}
+  m_PrefabInternal: {fileID: 48186694}
+  m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
+--- !u!114 &48186699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 48186695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c7ccf047e5d09e4bbb8f340f2c42f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &48186700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 48186695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5375957cf6172fa42adedd6a3a8a45db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &48186701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 48186695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c46458c0bb46245985a85a42ac23a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  durability: 0
 --- !u!1 &134921216
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,7 +471,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 331861820}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1281495487}
+        m_MethodName: ActivateUpgradeSpeed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &331861820
@@ -960,7 +1011,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 739348863}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1281495486}
+        m_MethodName: ActivateUpgradeDurability
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &739348863
@@ -1257,6 +1319,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1281495485}
   - component: {fileID: 1281495484}
+  - component: {fileID: 1281495487}
+  - component: {fileID: 1281495486}
   m_Layer: 0
   m_Name: Upgrade Manager
   m_TagString: Untagged
@@ -1275,6 +1339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e8d938309e590d45ab1e06c7034abdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hc: {fileID: 48186699}
+  scouls: {fileID: 545688326}
 --- !u!4 &1281495485
 Transform:
   m_ObjectHideFlags: 0
@@ -1288,6 +1354,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1281495486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281495483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067c7d4e0d30de04289715a0f8fd55ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  durab: {fileID: 48186701}
+  scouls: {fileID: 545688326}
+--- !u!114 &1281495487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281495483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586f6dad608198f46ad71ca7310c6f9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fps: {fileID: 48186698}
+  scouls: {fileID: 545688326}
 --- !u!1 &1291861178
 GameObject:
   m_ObjectHideFlags: 0
