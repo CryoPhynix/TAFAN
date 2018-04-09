@@ -41,21 +41,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-<<<<<<< HEAD
-=======
         
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
 
         public float speedMultiplier;
 
 
-<<<<<<< HEAD
-
         public GameObject Weapons;
-
-=======
-        public GameObject Weapons;
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
         public GameObject Upgrade;
 
         void Update()
@@ -65,6 +56,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 bool state = Upgrade.activeSelf;
                 Upgrade.SetActive(!state);
             }
+
+
+      
         }
 
         private void Start()

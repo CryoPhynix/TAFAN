@@ -13,25 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 8
-    y: 51
-    width: 1904
-    height: 981
-  m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 371}
-=======
     x: 0
     y: 43
-    width: 1920
-    height: 997
+    width: 1536
+    height: 781
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -51,21 +40,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
-    width: 1904
-    height: 931
-  m_MinSize: {x: 679, y: 321}
-  m_MaxSize: {x: 12004, y: 8021}
-  vertical: 0
-  controlID: 26
-=======
-    width: 1920
-    height: 947
-  m_MinSize: {x: 681, y: 492}
+    width: 1536
+    height: 731
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 131
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+  controlID: 66
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -80,21 +60,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1518
+    x: 1226
     y: 0
-    width: 386
-    height: 931
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-=======
-    x: 1532
-    y: 0
-    width: 388
-    height: 947
+    width: 310
+    height: 731
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -116,13 +87,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 376
-    height: 563
-=======
-    width: 379
-    height: 573
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    width: 303
+    height: 442
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
@@ -145,26 +111,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 563
-    width: 1518
-    height: 368
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
-=======
-    y: 573
-    width: 1532
-    height: 374
+    y: 442
+    width: 1226
+    height: 289
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,13 +141,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1904
-    height: 981
-=======
-    width: 1920
-    height: 997
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    width: 1536
+    height: 781
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -209,11 +161,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1904
-=======
-    width: 1920
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -233,13 +181,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 961
-    width: 1904
-=======
-    y: 977
-    width: 1920
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    y: 761
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -261,21 +204,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1518
-    height: 931
-  m_MinSize: {x: 404, y: 321}
-  m_MaxSize: {x: 8004, y: 8021}
-  vertical: 1
-  controlID: 110
-=======
-    width: 1532
-    height: 947
-  m_MinSize: {x: 404, y: 492}
+    width: 1226
+    height: 731
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+  controlID: 67
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,21 +228,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1518
-    height: 563
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+    width: 1226
+    height: 442
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 111
-=======
-    width: 1532
-    height: 573
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
-  vertical: 0
-  controlID: 11
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,29 +248,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 376
+    x: 303
     y: 0
-    width: 1142
-    height: 563
+    width: 923
+    height: 442
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 16}
-=======
-    x: 379
-    y: 0
-    width: 1153
-    height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,17 +283,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 468
-    y: 181
-    width: 973
-    height: 501
-=======
     x: 381
     y: 92
     width: 1149
     height: 552
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -402,17 +310,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 8
-    y: 663
-    width: 1516
-    height: 347
-=======
     x: 0
-    y: 665
-    width: 1530
-    height: 353
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    y: 534
+    width: 1224
+    height: 268
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -426,29 +327,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-<<<<<<< HEAD
     - Assets
-=======
-    - Assets/Combat Systems-Constructor/Prefab
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ESA Member\Documents\GitHub\TAFAN\TAFAN
+  m_LastProjectPath: C:\Users\rampa\Documents\Unity Projects\TAFAN\TAFAN
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-<<<<<<< HEAD
-    m_SelectedIDs: 7e280000
-    m_LastClickedID: 10366
-    m_ExpandedIDs: 000000007e280000b0290000ba290000a22b0000aa2b0000442d00008c2f0000643100009a310000ac3100003432000000ca9a3bffffff7f
-=======
-    m_SelectedIDs: 44300000
-    m_LastClickedID: 12356
-    m_ExpandedIDs: 000000006e280000a0290000922b00009a2b0000342d00007c2f0000543100008a3100009c3100002432000000ca9a3bffffff7f
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    scrollPos: {x: 0, y: 61}
+    m_SelectedIDs: 76280000
+    m_LastClickedID: 10358
+    m_ExpandedIDs: 0000000076280000a82900009a2b0000a22b00003c2d0000842f00005c31000092310000a43100002c32000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,11 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 000000007e280000b0290000a22b0000aa2b0000442d00008c2f0000643100009a310000ac31000034320000
-=======
-    m_ExpandedIDs: 000000006e280000a0290000922b00009a2b0000342d00007c2f0000543100008a3100009c31000024320000
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    m_ExpandedIDs: 0000000076280000a82900009a2b0000a22b00003c2d0000842f00005c31000092310000a43100002c320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,13 +419,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 60}
     m_GridSize: 64
-<<<<<<< HEAD
-  m_DirectoriesAreaWidth: 115
-=======
   m_DirectoriesAreaWidth: 259
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -561,17 +444,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1528
-    y: 100
-    width: 384
-    height: 910
-=======
-    x: 1534
+    x: 1228
     y: 92
-    width: 386
-    height: 926
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    width: 308
+    height: 710
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
@@ -602,27 +478,16 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 8
-    y: 100
-    width: 374
-    height: 542
-=======
     x: 0
     y: 92
-    width: 377
-    height: 552
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    width: 301
+    height: 421
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 94fbffff00000000
-=======
-    m_ExpandedIDs: 98fbffff000000003c3300007233000090330000b0330000f0330000
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    m_ExpandedIDs: 96fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,15 +532,6 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 386
-    y: 100
-    width: 1138
-    height: 542
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_SceneLighting: 1
-  lastFramingTime: 0
-=======
     x: 381
     y: 92
     width: 1149
@@ -683,20 +539,13 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 2758.7542888723815
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 0, y: 0, z: 0}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
-=======
     m_Target: {x: 3.7108228, y: -3.1010942, z: -2.6466954}
     speed: 2
     m_Value: {x: 3.7108228, y: -3.1010942, z: -2.6466954}
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -720,29 +569,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-    speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_Size:
-    m_Target: 10
-    speed: 2
-    m_Value: 10
-=======
     m_Target: {x: 0.020836854, y: 0.97861844, z: -0.16024928, w: 0.12724735}
     speed: 2
-    m_Value: {x: 0.020836856, y: 0.9786185, z: -0.1602493, w: 0.12724736}
+    m_Value: {x: 0.020836854, y: 0.97861844, z: -0.16024928, w: 0.12724735}
   m_Size:
     m_Target: 2.1316664
     speed: 2
     m_Value: 2.1316664
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: 0.0019183541, y: 0.952525, z: -0.30439526, w: 0.0060028606}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -770,17 +609,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 386
-    y: 100
-    width: 1138
-    height: 542
-=======
-    x: 381
+    x: 305
     y: 92
-    width: 1149
-    height: 552
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    width: 919
+    height: 421
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -790,17 +622,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-<<<<<<< HEAD
-    m_HBaseRangeMin: -569
-    m_HBaseRangeMax: 569
-    m_VBaseRangeMin: -262.5
-    m_VBaseRangeMax: 262.5
-=======
-    m_HBaseRangeMin: -574.5
-    m_HBaseRangeMax: 574.5
-    m_VBaseRangeMin: -267.5
-    m_VBaseRangeMax: 267.5
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    m_HBaseRangeMin: -459.5
+    m_HBaseRangeMax: 459.5
+    m_VBaseRangeMin: -202
+    m_VBaseRangeMax: 202
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -809,7 +634,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -817,43 +642,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-<<<<<<< HEAD
-      width: 1138
-      height: 525
+      width: 919
+      height: 404
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 569, y: 262.5}
-=======
-      width: 1149
-      height: 535
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 574.5, y: 267.5}
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+    m_Translation: {x: 459.5, y: 202}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-      x: -569
-      y: -262.5
-      width: 1138
-      height: 525
-=======
-      x: -574.5
-      y: -267.5
-      width: 1149
-      height: 535
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+      x: -459.5
+      y: -202
+      width: 919
+      height: 404
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-<<<<<<< HEAD
-  m_LastWindowPixelSize: {x: 1138, y: 542}
-=======
-  m_LastWindowPixelSize: {x: 1149, y: 552}
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+  m_LastWindowPixelSize: {x: 919, y: 421}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -879,15 +686,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 8
-    y: 663
-    width: 1516
-    height: 347
-=======
     x: 0
     y: 665
     width: 1530
     height: 353
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
   m_PersistentViewDataDictionary: {fileID: 0}
