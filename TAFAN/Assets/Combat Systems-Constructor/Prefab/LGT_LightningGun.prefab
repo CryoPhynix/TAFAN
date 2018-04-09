@@ -793,11 +793,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4310221185413948}
   - component: {fileID: 95000964396406590}
-  - component: {fileID: 195912352923708490}
-  - component: {fileID: 114962990634049812}
-  - component: {fileID: 114594031558743836}
-  - component: {fileID: 135037940703217290}
-  - component: {fileID: 54846741882931094}
   m_Layer: 0
   m_Name: LGT_LightningGun
   m_TagString: Untagged
@@ -4622,21 +4617,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1235114898062308}
   m_Mesh: {fileID: 4300022, guid: 8e94c639d15cecf47b80c6bdab03c932, type: 3}
---- !u!54 &54846741882931094
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1527738599727904}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!95 &95000964396406590
 Animator:
   serializedVersion: 3
@@ -4695,68 +4675,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollSpeed: 30
---- !u!114 &114594031558743836
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1527738599727904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4c46458c0bb46245985a85a42ac23a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DurabilityLevel: {fileID: 0}
-  gameover: {fileID: 0}
-  durability: 0
---- !u!114 &114962990634049812
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1527738599727904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cbe0be2ea56da24ba23a8799f1ff5cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nav: {fileID: 0}
-  ThrusterTargeted: 0
-  PlayerTargeted: 0
-  Player: {fileID: 0}
-  Thruster: {fileID: 0}
-  dist: 0
-  weapArray: []
---- !u!135 &135037940703217290
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1527738599727904}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.7
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!195 &195912352923708490
-NavMeshAgent:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1527738599727904}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
