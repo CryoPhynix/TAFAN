@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class HeatingCooling : MonoBehaviour {
 
+    public Image HeatLevel;
+    public GameOver gameover;
     float gameOverTimer;
     float heatValue;
     int coolingValue;
@@ -31,7 +33,7 @@ public class HeatingCooling : MonoBehaviour {
                 gameOverTimer -= Time.deltaTime;
                 if (gameOverTimer <= 0.0f)
                 {
-                    //call game over
+                    gameover.CallGameOver();
                 }
             }
         }
@@ -51,4 +53,6 @@ public class HeatingCooling : MonoBehaviour {
     {
         coolingValue++;
     }
+
+
 }
