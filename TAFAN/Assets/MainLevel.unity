@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -183,7 +183,22 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: spawnTimer.Array.size
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
+        type: 2}
+      propertyPath: spawnFloor.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
+        type: 2}
+      propertyPath: spawnCeiling.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
+        type: 2}
+      propertyPath: lastSpawnTimer.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
@@ -193,7 +208,7 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: InstantiateHeight.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4000010438546422, guid: 933b66d2fa746dc4a8c837f5686da21f, type: 2}
       propertyPath: m_LocalPosition.x
@@ -259,7 +274,7 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: spawnTimer.Array.data[1]
-      value: 3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
@@ -326,8 +341,17 @@ Prefab:
       propertyPath: lastSpawnTimer.Array.data[2]
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
+        type: 2}
+      propertyPath: spawnCeiling.Array.data[2]
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+=======
     m_RemovedComponents:
     - {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f, type: 2}
+>>>>>>> 8a52fc1053adcf095875e254ea481fd7698fee80
   m_ParentPrefab: {fileID: 100100000, guid: 933b66d2fa746dc4a8c837f5686da21f, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &301276462 stripped
@@ -2704,7 +2728,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DurabilityLevel: {fileID: 0}
   gameover: {fileID: 0}
+<<<<<<< HEAD
+  durability: 5
+=======
   durability: 0
+>>>>>>> 8a52fc1053adcf095875e254ea481fd7698fee80
 --- !u!114 &2087118002
 MonoBehaviour:
   m_ObjectHideFlags: 0
