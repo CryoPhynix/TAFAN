@@ -304,12 +304,14 @@
     <Compile Include="Assets\SmartSpawn\Scripts\Editor\SmartSpawnEditor.cs" />
     <Compile Include="Assets\SmartSpawn\Scripts\Editor\SmartSpawnNetworkEditor.cs" />
     <Compile Include="Assets\SmartSpawn\Scripts\Editor\SmartSpawnScritableObjectEditor.cs" />
+    <Compile Include="Assets\Spawner\Editor\SpawnerInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\PDT Item Spawner\Documentation\README.txt" />
     <None Include="Assets\PDT Item Spawner\Resources\PDTFiles\Saved Data\CustomItemList.txt" />
     <None Include="Assets\SmartSpawn\Readme.txt" />
+    <None Include="Assets\Spawner\README.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />

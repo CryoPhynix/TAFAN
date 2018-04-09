@@ -3207,7 +3207,7 @@ MonoBehaviour:
   nav: {fileID: 195485952975308242}
   ThrusterTargeted: 0
   PlayerTargeted: 0
-  Player: {fileID: 0}
+  Player: {fileID: 1222085054116098, guid: 90496f2ee85265342a40e8172e991543, type: 2}
   Thruster: {fileID: 0}
   dist: 0
   weapArray:
