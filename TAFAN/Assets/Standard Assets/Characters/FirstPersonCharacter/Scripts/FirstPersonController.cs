@@ -41,7 +41,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+<<<<<<< HEAD
         
+=======
+
+        public float speedMultiplier;
+
+>>>>>>> 4251d9e655fcfe2f10d64e36fbff164635d61282
         // Use this for initialization
 
         public GameObject Upgrade;
@@ -67,8 +73,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+<<<<<<< HEAD
             bool state = Upgrade.activeSelf;
             Upgrade.SetActive(false);
+=======
+            speedMultiplier = 1.0f;
+        }
+>>>>>>> 4251d9e655fcfe2f10d64e36fbff164635d61282
 
         }
 
@@ -126,8 +137,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                                m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
-            m_MoveDir.x = desiredMove.x*speed;
-            m_MoveDir.z = desiredMove.z*speed;
+            m_MoveDir.x = desiredMove.x*speed * speedMultiplier;
+            m_MoveDir.z = desiredMove.z* speed * speedMultiplier;
 
 
             if (m_CharacterController.isGrounded)
@@ -148,8 +159,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
 
-            ProgressStepCycle(speed);
-            UpdateCameraPosition(speed);
+            ProgressStepCycle(speed * speedMultiplier);
+            UpdateCameraPosition(speed * speedMultiplier);
 
             m_MouseLook.UpdateCursorLock();
         }

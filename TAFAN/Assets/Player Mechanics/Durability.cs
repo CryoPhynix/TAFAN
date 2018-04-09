@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Durability : MonoBehaviour {
 
-    int durability;
+    public Image DurabilityLevel;
+    public GameOver gameover;
+    public int durability;
 
     void Start()
     {
@@ -16,7 +19,7 @@ public class Durability : MonoBehaviour {
         durability -= dmg;
         if (durability <= 0)
         {
-            //call game over
+            gameover.CallGameOver();
         }
     }
 }
