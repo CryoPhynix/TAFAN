@@ -41,9 +41,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+<<<<<<< HEAD
         public float speedMultiplier;
 
         // Use this for initialization
+=======
+
+
+        public float speedMultiplier;
+
+
+>>>>>>> 8a52fc1053adcf095875e254ea481fd7698fee80
 
         public GameObject Upgrade;
 
@@ -73,7 +81,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
             Upgrade.SetActive(false);
 
             speedMultiplier = 1.0f;
+<<<<<<< HEAD
         }
+=======
+        
+
+>>>>>>> 8a52fc1053adcf095875e254ea481fd7698fee80
 
 
         

@@ -24,6 +24,8 @@ public class ACS_Actions : MonoBehaviour {
     public void Update()
     {
 
+        Thruster = GameObject.FindGameObjectWithTag("Thruster");
+        Player = GameObject.FindGameObjectWithTag("Player");
         dist = Vector3.Distance(Player.transform.position, this.transform.position);
 
      
