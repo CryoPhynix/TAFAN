@@ -241,6 +241,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\3D Laser VFX\Demo Scene\AnimationHandler.cs" />
+    <Compile Include="Assets\3D Laser VFX\Demo Scene\SceneManager.cs" />
     <Compile Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Scripts\Cam.cs" />
     <Compile Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Scripts\Shell.cs" />
     <Compile Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Scripts\TurretTurn.cs" />
@@ -258,8 +260,15 @@
     <Compile Include="Assets\Combat Systems-Constructor\Scripts\LGT_trackMove.cs" />
     <Compile Include="Assets\Crater\AI22.cs" />
     <Compile Include="Assets\Crater\Gun.cs" />
+    <Compile Include="Assets\firelaser.cs" />
     <Compile Include="Assets\InfiniteSpawnPlane\randomGenerationScript.cs" />
     <Compile Include="Assets\objectfinder.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItem.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemGatherer.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemManager.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemRespawn.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemSpawner.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemSpawnType.cs" />
     <Compile Include="Assets\Pickup.cs" />
     <Compile Include="Assets\Player Mechanics\ChillyPower.cs" />
     <Compile Include="Assets\Player Mechanics\Durability.cs" />
@@ -268,12 +277,25 @@
     <Compile Include="Assets\Player Mechanics\ShootScript.cs" />
     <Compile Include="Assets\Scoulville_Manager.cs" />
     <Compile Include="Assets\Shoot.cs" />
+    <Compile Include="Assets\SmartSpawn\Demo assets\Demo Scripts\SSBasicMoveScript.cs" />
+    <Compile Include="Assets\SmartSpawn\Demo assets\Demo Scripts\SSSmoothMouseLook.cs" />
+    <Compile Include="Assets\SmartSpawn\Scripts\Player Spawning\SmartPlayerSpawner.cs" />
+    <Compile Include="Assets\SmartSpawn\Scripts\Player Spawning\SmartPlayerSpawnSetter.cs" />
+    <Compile Include="Assets\SmartSpawn\Scripts\SmartSpawnColliderCheck.cs" />
+    <Compile Include="Assets\SmartSpawn\Scripts\SmartSpawnEnemyTracker.cs" />
+    <Compile Include="Assets\SmartSpawn\Scripts\SmartSpawnInfluenceMap.cs" />
+    <Compile Include="Assets\SmartSpawn\Scripts\SmartSpawnScript.cs" />
+    <Compile Include="Assets\SmartSpawn\Scripts\SmartSpawnScriptableObject.cs" />
+    <Compile Include="Assets\SmartSpawn\Scripts\SmartSpawnScriptDefaultNetworked.cs" />
     <Compile Include="Assets\Upgrade System\UpgradeCooling.cs" />
     <Compile Include="Assets\Upgrade System\UpgradeDurability.cs" />
     <Compile Include="Assets\Upgrade System\UpgradeSpeed.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Combat Systems-Constructor\Demo_Simple_Game\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\PDT Item Spawner\Documentation\README.txt" />
+    <None Include="Assets\PDT Item Spawner\Resources\PDTFiles\Saved Data\CustomItemList.txt" />
+    <None Include="Assets\SmartSpawn\Readme.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
-
+using UnityEngine.UI;
 namespace UnityStandardAssets.Characters.FirstPerson
 {
     [RequireComponent(typeof (CharacterController))]
@@ -41,8 +41,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-
+        
         // Use this for initialization
+
+        public GameObject Upgrade;
+
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                bool state = Upgrade.activeSelf;
+                Upgrade.SetActive(!state);
+            }
+        }
+
         private void Start()
         {
             m_CharacterController = GetComponent<CharacterController>();
@@ -55,11 +67,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            bool state = Upgrade.activeSelf;
+            Upgrade.SetActive(false);
+
         }
 
-
+        
         // Update is called once per frame
-        private void Update()
+        private void FixedUpdate()
         {
             RotateView();
             // the jump state needs to read here to make sure it is not missed
@@ -92,8 +107,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
 
 
-        private void FixedUpdate()
+        private void LateUpdate()
         {
+
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+               
+            }
+
             float speed;
             GetInput(out speed);
             // always move along the camera forward as it is the direction that it being aimed at
