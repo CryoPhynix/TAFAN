@@ -41,12 +41,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-
+        
 
         public float speedMultiplier;
 
 
-
+        public GameObject Weapons;
         public GameObject Upgrade;
 
         void Update()
@@ -56,6 +56,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 bool state = Upgrade.activeSelf;
                 Upgrade.SetActive(!state);
             }
+
+
+      
         }
 
         private void Start()
