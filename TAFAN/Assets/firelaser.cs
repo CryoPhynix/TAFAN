@@ -47,10 +47,9 @@ public class firelaser : MonoBehaviour
                 if (Hit.collider.gameObject.name == "Enemy")
                 {
 
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
+
+
 
 
                 }
