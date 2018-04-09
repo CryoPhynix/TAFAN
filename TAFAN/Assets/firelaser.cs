@@ -47,7 +47,11 @@ public class firelaser : MonoBehaviour
                 if (Hit.collider.gameObject.name == "Enemy")
                 {
 
-
+                    Hit.collider.gameObject.GetComponent<Durability>().takeDamage(-1);
+                    if (Hit.collider.gameObject.GetComponent<Durability>().durability <= 0)
+                    {
+                        Destroy(Hit.collider.gameObject);
+                    }
 
                 }
 

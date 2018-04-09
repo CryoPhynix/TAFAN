@@ -41,13 +41,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-<<<<<<< HEAD
-        
-=======
-
         public float speedMultiplier;
 
->>>>>>> 4251d9e655fcfe2f10d64e36fbff164635d61282
         // Use this for initialization
 
         public GameObject Upgrade;
@@ -73,15 +68,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
-<<<<<<< HEAD
+
             bool state = Upgrade.activeSelf;
             Upgrade.SetActive(false);
-=======
+
             speedMultiplier = 1.0f;
         }
->>>>>>> 4251d9e655fcfe2f10d64e36fbff164635d61282
 
-        }
+
+        
 
         
         // Update is called once per frame

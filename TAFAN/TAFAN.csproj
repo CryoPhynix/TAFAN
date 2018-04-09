@@ -319,11 +319,8 @@
     <Compile Include="Assets\Combat Systems-Constructor\Scripts\LGT_trackMove.cs" />
     <Compile Include="Assets\Crater\AI22.cs" />
     <Compile Include="Assets\Crater\Gun.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\firelaser.cs" />
-=======
     <Compile Include="Assets\GameOver.cs" />
->>>>>>> 4251d9e655fcfe2f10d64e36fbff164635d61282
     <Compile Include="Assets\InfiniteSpawnPlane\randomGenerationScript.cs" />
     <Compile Include="Assets\objectfinder.cs" />
     <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItem.cs" />

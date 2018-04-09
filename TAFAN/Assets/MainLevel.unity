@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -178,7 +178,22 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: spawnTimer.Array.size
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
+        type: 2}
+      propertyPath: spawnFloor.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
+        type: 2}
+      propertyPath: spawnCeiling.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
+        type: 2}
+      propertyPath: lastSpawnTimer.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
@@ -188,7 +203,7 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: InstantiateHeight.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4000010438546422, guid: 933b66d2fa746dc4a8c837f5686da21f, type: 2}
       propertyPath: m_LocalPosition.x
@@ -254,7 +269,7 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: spawnTimer.Array.data[1]
-      value: 3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
@@ -320,6 +335,11 @@ Prefab:
         type: 2}
       propertyPath: lastSpawnTimer.Array.data[2]
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
+        type: 2}
+      propertyPath: spawnCeiling.Array.data[2]
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 933b66d2fa746dc4a8c837f5686da21f, type: 2}
@@ -1570,6 +1590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202175fa6de86e547b51bfa26089edd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoulvilleImage: {fileID: 0}
   Scoulville: 0
   Health: 100
 --- !u!1 &1154378650
@@ -2593,6 +2614,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4c46458c0bb46245985a85a42ac23a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DurabilityLevel: {fileID: 0}
+  gameover: {fileID: 0}
+  durability: 5
 --- !u!114 &2087118002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2605,6 +2629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c7ccf047e5d09e4bbb8f340f2c42f5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeatLevel: {fileID: 0}
+  gameover: {fileID: 0}
 --- !u!82 &2087118003
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2807,6 +2833,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  speedMultiplier: 0
   Upgrade: {fileID: 370107464}
 --- !u!143 &2087118006
 CharacterController:
