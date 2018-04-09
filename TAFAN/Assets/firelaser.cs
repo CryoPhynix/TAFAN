@@ -48,11 +48,14 @@ public class firelaser : MonoBehaviour
                 {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
 
 
+=======
+>>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
 
 
 
