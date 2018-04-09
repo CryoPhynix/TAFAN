@@ -11,10 +11,10 @@ public class Durability : MonoBehaviour {
 
     void Start()
     {
-        //durability = 5;
+        durability = 5;
     }
 
-    public void takeDamage(int dmg)
+    void takeDamage(int dmg)
     {
         durability -= dmg;
         if (durability <= 0)

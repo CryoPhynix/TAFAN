@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -183,22 +183,7 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: spawnTimer.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
-        type: 2}
-      propertyPath: spawnFloor.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
-        type: 2}
-      propertyPath: spawnCeiling.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
-        type: 2}
-      propertyPath: lastSpawnTimer.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
@@ -208,7 +193,7 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: InstantiateHeight.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4000010438546422, guid: 933b66d2fa746dc4a8c837f5686da21f, type: 2}
       propertyPath: m_LocalPosition.x
@@ -274,7 +259,7 @@ Prefab:
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
       propertyPath: spawnTimer.Array.data[1]
-      value: 0.2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
         type: 2}
@@ -341,17 +326,8 @@ Prefab:
       propertyPath: lastSpawnTimer.Array.data[2]
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f,
-        type: 2}
-      propertyPath: spawnCeiling.Array.data[2]
-      value: 100
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-=======
     m_RemovedComponents:
     - {fileID: 114000011691729522, guid: 933b66d2fa746dc4a8c837f5686da21f, type: 2}
->>>>>>> 8a52fc1053adcf095875e254ea481fd7698fee80
   m_ParentPrefab: {fileID: 100100000, guid: 933b66d2fa746dc4a8c837f5686da21f, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &301276462 stripped
@@ -2057,18 +2033,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: {fileID: 1026576501}
---- !u!135 &1454132604
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1454132601}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.22
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1466267797
 Prefab:
   m_ObjectHideFlags: 0
@@ -2568,6 +2532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d5564bd7768fd49b1522e360c74075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
   camera1: {fileID: 0}
   metalHit: {fileID: 0}
   MetalSparks: {fileID: 0}
@@ -2578,9 +2543,6 @@ MonoBehaviour:
   maxAmmo: 12
   inventoryAmmo: 24
   Accuracy: 0.01
-  RunTimer: 0
-  timer: 0
-  Weapons: {fileID: 1356720628}
 --- !u!4 &1832878127 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4255365271140796, guid: f4419378b0d327d4789fcd40e75d1199,
@@ -2728,11 +2690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DurabilityLevel: {fileID: 0}
   gameover: {fileID: 0}
-<<<<<<< HEAD
-  durability: 5
-=======
   durability: 0
->>>>>>> 8a52fc1053adcf095875e254ea481fd7698fee80
 --- !u!114 &2087118002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2950,7 +2908,6 @@ MonoBehaviour:
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
   speedMultiplier: 0
-  Weapons: {fileID: 1356720628}
   Upgrade: {fileID: 370107464}
 --- !u!143 &2087118006
 CharacterController:

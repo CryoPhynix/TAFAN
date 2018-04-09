@@ -41,26 +41,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-<<<<<<< HEAD
-        
-=======
-<<<<<<< HEAD
-        public float speedMultiplier;
 
-        // Use this for initialization
-=======
-
->>>>>>> 1906d30dcc1e37237e495307c402bf6c328fbb61
 
         public float speedMultiplier;
 
 
-<<<<<<< HEAD
-        public GameObject Weapons;
-=======
->>>>>>> 8a52fc1053adcf095875e254ea481fd7698fee80
 
->>>>>>> 1906d30dcc1e37237e495307c402bf6c328fbb61
         public GameObject Upgrade;
 
         void Update()
@@ -70,9 +56,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 bool state = Upgrade.activeSelf;
                 Upgrade.SetActive(!state);
             }
-
-
-      
         }
 
         private void Start()
@@ -92,15 +75,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             Upgrade.SetActive(false);
 
             speedMultiplier = 1.0f;
-<<<<<<< HEAD
+        
+
+
         }
-=======
-        
-
->>>>>>> 8a52fc1053adcf095875e254ea481fd7698fee80
-
-
-        
 
         
         // Update is called once per frame

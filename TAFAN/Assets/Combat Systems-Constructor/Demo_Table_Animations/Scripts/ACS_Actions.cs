@@ -14,7 +14,7 @@ public class ACS_Actions : MonoBehaviour {
     private void Start()
     {
         ThrusterTargeted = true;
-        nav = GetComponent<NavMeshAgent>();
+
     }
 
 
