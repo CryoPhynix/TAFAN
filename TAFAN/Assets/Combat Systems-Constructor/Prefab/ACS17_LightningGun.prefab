@@ -245,7 +245,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4211291671742000}
   - component: {fileID: 95970023700167972}
+<<<<<<< HEAD
   - component: {fileID: 195402764775689114}
+=======
+>>>>>>> parent of b8a47aa... Almost done
   m_Layer: 0
   m_Name: ACS17_LightningGun
   m_TagString: Untagged
@@ -3932,6 +3935,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
 --- !u!195 &195402764775689114
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -3953,3 +3957,5 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+=======
+>>>>>>> parent of b8a47aa... Almost done

@@ -58,8 +58,13 @@ public class firelaser : MonoBehaviour
 >>>>>>> parent of 71de292... Merge branch 'master' of https://github.com/kirkpe/TAFAN
 
 
+<<<<<<< HEAD
 
                 }
+=======
+                }
+
+>>>>>>> parent of b8a47aa... Almost done
 
 
             }

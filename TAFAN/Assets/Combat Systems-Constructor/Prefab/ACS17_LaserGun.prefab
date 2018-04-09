@@ -1053,7 +1053,10 @@ GameObject:
   - component: {fileID: 4254436968123448}
   - component: {fileID: 95793621490872120}
   - component: {fileID: 114241220950531034}
+<<<<<<< HEAD
   - component: {fileID: 195996621040127662}
+=======
+>>>>>>> parent of b8a47aa... Almost done
   m_Layer: 0
   m_Name: ACS17_LaserGun
   m_TagString: Untagged
@@ -5457,6 +5460,7 @@ MonoBehaviour:
   Thruster: {fileID: 0}
   dist: 0
   weapArray: []
+<<<<<<< HEAD
 --- !u!195 &195996621040127662
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -5478,3 +5482,5 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+=======
+>>>>>>> parent of b8a47aa... Almost done
